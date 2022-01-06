@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.fifty-percent-width {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.section-area {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: #fff;
+  background-image: linear-gradient(to right, #682fb0, salmon);
+  border-radius: 30px;
+}
+/* Hero section style start from here */
+
+.hero-text-area {
+  padding-top: 8%;
+}
+
+.h1-left-border {
+  border-left: 5px solid;
+  border-image: linear-gradient(#682fb0, #fa8072);
+  border-image-slice: 1;
+}
+
+.hero-h1 {
+  font-size: 75px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.hero-span {
+  color: #5620ba;
+}
+
+.hero-intro {
+  font-size: 18px;
+  padding-top: 20px;
+  padding-right: 200px;
+}
+
+.scroll-down-text {
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+.hero-image-area {
+  display: flex;
+  justify-content: right;
+  margin: auto;
+}
+.hero-image-area img {
+  width: 70%;
+  height: 70%;
+}
+
+/***************************************** Hero Section style ends here ***********************************************************/
+
+/**************************************** Mission Section Style Start form here **************************************************/
+.my-mission-section {
+  margin-top: 70px;
+}
+
+.section-intro-heading {
+  font-size: 50px;
+  text-align: center;
+}
+
+.mission-section-card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.card {
+  width: 32%;
+  height: 376px;
+  border-radius: 30px;
+  padding: 60px 40px;
+}
+
+.mission-card {
+  background-image: linear-gradient(
+    to top left,
+    rgba(238, 243, 210, 0.5),
+    rgba(252, 136, 132, 0.5)
+  );
+}
+
+.vision-card {
+  background-image: linear-gradient(
+    to top left,
+    rgba(12, 205, 163, 0.5),
+    rgba(193, 252, 211, 0.5)
+  );
+}
+
+.goals-card {
+  background-image: linear-gradient(
+    to top left,
+    rgba(251, 194, 235, 0.5),
+    rgba(120, 162, 235, 0.5)
+  );
+}
+
+.card-image {
+  width: 141px;
+}
+
+.card-heading {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.vision-heading {
+  margin-top: 18px;
+}
+
+/**************************************** Mission Section Style Ends here **************************************************/
+
+/**************************************** Developement And Global community Section style start from here ************************/
+
+.developement-section {
+  background-image: url(/images/developement-bg.png);
+  background-repeat: no-repeat;
+  background-position: 1.3% 15%;
+  margin-top: 100px;
+}
+
+.community-section {
+  background-image: url(/images/community.png);
+  background-repeat: no-repeat;
+  background-position: 1580px 370px;
+  padding-bottom: 100px;
+  margin-top: 100px;
+}
+
+.developement-community-image-area {
+  width: 34%;
+}
+
+.developement-community-image-area img {
+  width: 517px;
+  height: 517px;
+}
+
+.developement-text-area {
+  width: 66%;
+  padding-top: 3%;
+  margin-left: 200px;
+  position: relative;
+  justify-content: center;
+}
+
+.community-text-area {
+  width: 66%;
+  padding-top: 3%;
+  margin-right: 200px;
+  position: relative;
+  justify-content: center;
+}
+
+.development-coomunity-heading-text {
+  font-size: 40px;
+}
+
+/* Contact us section style from here */
+
+.contact-us-section-image {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.contact-us-section-image img {
+  width: 90%;
+  height: 90%;
+}
+
+.contact-us-heading {
+  font-size: 50px;
+}
+
+.contact-us-form input {
+  display: block;
+  width: 371px;
+  height: 60px;
+  border: 2px solid #5620ba;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.contact-us-form button {
+  border: none;
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #682fb0, salmon);
+  color: #fff;
+}
+
+.contact-us-text-area {
+  padding-top: 5%;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+/* Footer Style */
+
+footer {
+  margin-top: 100px;
+  height: 177px;
+  background-color: black;
+}
+
+footer h3 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 40px;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+}
